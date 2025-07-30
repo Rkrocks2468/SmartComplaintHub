@@ -1,41 +1,12 @@
-# 📌 SmartComplaint Hub
+# React + Vite
 
-SmartComplaint Hub is a web-based platform designed for efficient complaint management. Users can submit issues, and administrators can monitor and address them through a structured dashboard.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🧾 **Complaint Registration:** Users can submit complaints with details.
-- 👤 **User Authentication:** Login/signup functionality.
-- 📊 **Admin Dashboard:** View, manage, and resolve user complaints.
-- ⚡ **Responsive Frontend:** Built with Vite and modern JavaScript tooling.
-- 🔗 **Modular Design:** Clean separation between frontend and backend.
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-| Layer       | Technology         |
-|-------------|--------------------|
-| Frontend    | HTML, CSS, JS, Vite |
-| Backend     | Node.js / Express (assumed) |
-| Package Mgr | npm                |
-
----
-
-## 📦 Installation & Run (Development)
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/smartcomplaint-hub.git
-cd smartcomplaint
-
-# Backend (if present in root)
-npm install
-npm start  # or node server.js
-
-# Frontend
-cd client
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
